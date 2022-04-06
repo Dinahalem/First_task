@@ -8,9 +8,9 @@
 
 on:
   push:
-    branches: [ main ]
+    branches: [ new-ci-workflow ]
   pull_request:
-    branches: [ main ]
+    branches: [ new-ci-workflow ]
 
 permissions:
   contents: read
