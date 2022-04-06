@@ -32,5 +32,3 @@ jobs:
 
     - name: Build with Gradle
       run: ./gradlew build
-      gradleVersion: '4.1'
-      
