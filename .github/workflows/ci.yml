@@ -12,6 +12,8 @@ on:
     branches: [ new-ci-workflow ]
   pull_request:
     branches: [ new-ci-workflow ]
+permissions:
+  contents: read    
 jobs:
   build-without-cache:
     runs-on: ubuntu-latest
